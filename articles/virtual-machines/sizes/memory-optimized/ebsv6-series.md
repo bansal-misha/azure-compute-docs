@@ -59,16 +59,16 @@ Remote (uncached) storage info for each size
 
 | Size Name | Max Remote Storage Disks (Qty.) | Uncached Premium SSD Disk IOPS | Uncached Premium SSD Throughput (MB/s) | Uncached Premium SSD Burst<sup>1</sup> IOPS | Uncached Premium SSD Burst<sup>1</sup> Throughput (MB/s) | Uncached Ultra Disk and Premium SSD v2 IOPS | Uncached Ultra Disk and Premium SSD v2 Throughput (MB/s) | Uncached Burst<sup>1</sup> Ultra Disk and Premium SSD v2 IOPS | Uncached Burst<sup>1</sup> Ultra Disk and Premium SSD v2 Disk Throughput (MB/s) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Standard_E2bs_v6 | 8 | 8800 | 253 | 30000 | 1250 | 4167 | 124 | 44444 | 1463 |
-| Standard_E4bs_v6 | 12 | 17600 | 506 | 35000 | 1250 | 8333 | 248 | 52083 | 1463 |
-| Standard_E8bs_v6 | 24 | 36300 | 1023 | 44000 | 1250 | 16667 | 496 | 52083 | 1463 |
-| Standard_E16bs_v6 | 48 | 72600 | 1980 | 77000 | 1250 | 33333 | 992 | 52083 | 1463 |
-| Standard_E32bs_v6 | 64 | 143000 | 4070 | 154000 | 1696 | 66667 | 1984 | 104167 | 1984 |
-| Standard_E48bs_v6 | 64 | 209000 | 6160 | 220000 | 2544 | 100000 | 2976 | 104167 | 2976 |
-| Standard_E64bs_v6 | 64 | 242000 | 6600 | 253000 | 3392 | 133333 | 3969 | 133333 | 3969 |
-| Standard_E96bs_v6 | 64 | 286000 | 8250 | 286000 | 5088 | 200000 | 5953 | 200000 | 5953 |
-| Standard_E128bs_v6 | 64 | 330000 | 10000 | 350000 | 6782 | 266667 | 7935 | 266667 | 7935 |
-| Standard_E192ibs_v6 | 64 | 400000 | 14000 | 400000 | 12000 | 400000 | 12000 | 400000 | 12000 |
+| Standard_E2bs_v6 | 8 | 8800 | 253 | 30000 | 1200 | 13200 | 330 | 45000 | 1565 |
+| Standard_E4bs_v6 | 12 | 17600 | 506 | 35000 | 1200 | 23540 | 660 | 46813 | 1565 |
+| Standard_E8bs_v6 | 24 | 36300 | 1023 | 44000 | 1500 | 48620 | 1320 | 58933 | 1935 |
+| Standard_E16bs_v6 | 48 | 72600 | 1980 | 77000 | 2500 | 97240 | 2530 | 103133 | 3194 |
+| Standard_E32bs_v6 | 64 | 143000 | 4070 | 154000 | 5000 | 191620 | 5280 | 206360 | 6486 |
+| Standard_E48bs_v6 | 64 | 209000 | 6160 | 220000 | 7000 | 278630 | 8030 | 293295 | 9124 |
+| Standard_E64bs_v6 | 64 | 242000 | 6600 | 253000 | 8000 | 324280 | 8580 | 339020 | 10400 |
+| Standard_E96bs_v6 | 64 | 286000 | 8250 | 286000 | 10000 | 429000 | 9900 | 429000 | 12000 |
+| Standard_E128bs_v6 | 64 | 330000 | 10000 | 350000 | 11500 | 500000 | 12000 | 530303 | 13800 |
+| Standard_E192ibs_v6 | 64 | 400000 | 14000 | 400000 | 14000 | 800000 | 14000 | 800000 | 14000 |
 
 #### Storage resources
 - [Introduction to Azure managed disks](../../../virtual-machines/managed-disks-overview.md)
