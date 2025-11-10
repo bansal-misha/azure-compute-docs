@@ -90,17 +90,16 @@ Network interface info for each size
 
 | Size Name | Max NICs (Qty.) | Max Network Bandwidth (Mb/s) |
 | --- | --- | --- |
-| Standard_E2s_v6 | 2 | 12500 |
-| Standard_E4s_v6 | 2 | 12500 |
-| Standard_E8s_v6 | 4 | 12500 |
-| Standard_E16s_v6 | 8 | 12500 |
-| Standard_E20s_v6 | 8 | 12500 |
-| Standard_E32s_v6 | 8 | 16000 |
-| Standard_E48s_v6 | 8 | 24000 |
-| Standard_E64s_v6 | 8 | 30000 |
-| Standard_E96s_v6 | 8 | 41000 |
-| Standard_E128s_v6 | 8 | 54000 |
-| Standard_E192is_v6 | 8 | 200000 |
+| Standard_E2bs_v6 | 2 | 12500 |
+| Standard_E4bs_v6 | 2 | 12500 |
+| Standard_E8bs_v6 | 4 | 12500 |
+| Standard_E16bs_v6 | 8 | 12500 |
+| Standard_E32bs_v6 | 8 | 16000 |
+| Standard_E48bs_v6 | 8 | 24000 |
+| Standard_E64bs_v6 | 8 | 30000 |
+| Standard_E96bs_v6 | 8 | 41000 |
+| Standard_E128bs_v6 | 8 | 54000 |
+| Standard_E192ibs_v6 | 8 | 200000 |
 
 #### Networking resources
 - [Virtual networks and virtual machines in Azure](/azure/virtual-network/network-overview)
