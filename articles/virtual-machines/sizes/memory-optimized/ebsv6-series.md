@@ -1,23 +1,23 @@
 ---
-title: Esv6 size series
+title: Ebsv6 size series
 description: Information on and specifications of the Esv6-series sizes
-author: mattmcinnes
+author: bansal-misha
 ms.service: azure-virtual-machines
 ms.subservice: sizes
 ms.topic: concept-article
-ms.date: 08/01/2024
-ms.author: mattmcinnes
+ms.date: 11/17/2025
+ms.author: bansal-misha
 ms.reviewer: mattmcinnes
 # Customer intent: As a cloud architect, I want to review the specifications and feature support of various Esv6-series virtual machine sizes, so that I can select the most appropriate size for my workloads and optimize performance in the cloud environment.
 ---
 
-# Esv6 sizes series 
+# Ebsv6 sizes series 
 
 [!INCLUDE [ebsv6-summary](./includes/ebsv6-series-summary.md)]
  
 
 ## Host specifications
-[!INCLUDE [esv6-series-specs](./includes/esv6-series-specs.md)]
+[!INCLUDE [ebsv6-series-specs](./includes/ebsv6-series-specs.md)]
 
 ## Feature support
 [Premium Storage](../../premium-storage-performance.md): Supported <br>[Premium Storage caching](../../premium-storage-performance.md): Supported <br>[Live Migration](../../maintenance-and-updates.md): Supported <br>[Memory Preserving Updates](../../maintenance-and-updates.md): Supported <br>[Generation 2 VMs](../../generation-2.md): Supported <br>[Generation 1 VMs](../../generation-2.md): Not Supported <br>[Accelerated Networking](/azure/virtual-network/create-vm-accelerated-networking-cli): Supported <br>[Ephemeral OS Disk](../../ephemeral-os-disks.md): Not Supported <br>[Nested Virtualization](/virtualization/hyper-v-on-windows/user-guide/nested-virtualization): Supported <br>
@@ -30,17 +30,16 @@ vCPUs (Qty.) and Memory for each size
 
 | Size Name | vCPUs (Qty.) | Memory (GB) |
 | --- | --- | --- |
-| Standard_E2s_v6 | 2 | 16 |
-| Standard_E4s_v6 | 4 | 32 |
-| Standard_E8s_v6 | 8 | 64 |
-| Standard_E16s_v6 | 16 | 128 |
-| Standard_E20s_v6 | 20 | 160 |
-| Standard_E32s_v6 | 32 | 256 |
-| Standard_E48s_v6 | 48 | 384 |
-| Standard_E64s_v6 | 64 | 512 |
-| Standard_E96s_v6 | 96 | 768 |
-| Standard_E128s_v6 | 128 | 1024 |
-| Standard_E192is_v6 | 192 | 1832 |
+| Standard_E2bs_v6 | 2 | 16 |
+| Standard_E4bs_v6 | 4 | 32 |
+| Standard_E8bs_v6 | 8 | 64 |
+| Standard_E16bs_v6 | 16 | 128 |
+| Standard_E32bs_v6 | 32 | 256 |
+| Standard_E48bs_v6 | 48 | 384 |
+| Standard_E64bs_v6 | 64 | 512 |
+| Standard_E96bs_v6 | 96 | 768 |
+| Standard_E128bs_v6 | 128 | 1024 |
+| Standard_E192ibs_v6 | 192 | 1832 |
 
 #### VM Basics resources
 - [Check vCPU quotas](../../../virtual-machines/quotas.md)
@@ -60,17 +59,16 @@ Remote (uncached) storage info for each size
 
 | Size Name | Max Remote Storage Disks (Qty.) | Uncached Premium SSD Disk IOPS | Uncached Premium SSD Throughput (MB/s) | Uncached Premium SSD Burst<sup>1</sup> IOPS | Uncached Premium SSD Burst<sup>1</sup> Throughput (MB/s) | Uncached Ultra Disk and Premium SSD v2 IOPS | Uncached Ultra Disk and Premium SSD v2 Throughput (MB/s) | Uncached Burst<sup>1</sup> Ultra Disk and Premium SSD v2 IOPS | Uncached Burst<sup>1</sup> Ultra Disk and Premium SSD v2 Disk Throughput (MB/s) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Standard_E2s_v6 | 8 | 3750 | 106 | 40000 | 1250 | 4167 | 124 | 44444 | 1463 |
-| Standard_E4s_v6 | 12 | 6400 | 212 | 40000 | 1250 | 8333 | 248 | 52083 | 1463 |
-| Standard_E8s_v6 | 24 | 12800 | 424 | 40000 | 1250 | 16667 | 496 | 52083 | 1463 |
-| Standard_E16s_v6 | 48 | 25600 | 848 | 40000 | 1250 | 33333 | 992 | 52083 | 1463 |
-| Standard_E20s_v6 | 48 | 32000 | 1060 | 64000 | 1600 | 41667 | 1240 | 83333 | 1872 |
-| Standard_E32s_v6 | 64 | 51200 | 1696 | 80000 | 1696 | 66667 | 1984 | 104167 | 1984 |
-| Standard_E48s_v6 | 64 | 76800 | 2544 | 80000 | 2544 | 100000 | 2976 | 104167 | 2976 |
-| Standard_E64s_v6 | 64 | 102400 | 3392 | 102400 | 3392 | 133333 | 3969 | 133333 | 3969 |
-| Standard_E96s_v6 | 64 | 153600 | 5088 | 153600 | 5088 | 200000 | 5953 | 200000 | 5953 |
-| Standard_E128s_v6 | 64 | 204800 | 6782 | 204800 | 6782 | 266667 | 7935 | 266667 | 7935 |
-| Standard_E192is_v6 | 64 | 260000 | 12000 | 260000 | 12000 | 400000 | 12000 | 400000 | 12000 |
+| Standard_E2bs_v6 | 8 | 8800 | 253 | 30000 | 1250 | 4167 | 124 | 44444 | 1463 |
+| Standard_E4bs_v6 | 12 | 17600 | 506 | 35000 | 1250 | 8333 | 248 | 52083 | 1463 |
+| Standard_E8bs_v6 | 24 | 36300 | 1023 | 44000 | 1250 | 16667 | 496 | 52083 | 1463 |
+| Standard_E16bs_v6 | 48 | 72600 | 1980 | 77000 | 1250 | 33333 | 992 | 52083 | 1463 |
+| Standard_E32bs_v6 | 64 | 143000 | 4070 | 154000 | 1696 | 66667 | 1984 | 104167 | 1984 |
+| Standard_E48bs_v6 | 64 | 209000 | 6160 | 220000 | 2544 | 100000 | 2976 | 104167 | 2976 |
+| Standard_E64bs_v6 | 64 | 242000 | 6600 | 253000 | 3392 | 133333 | 3969 | 133333 | 3969 |
+| Standard_E96bs_v6 | 64 | 286000 | 8250 | 286000 | 5088 | 200000 | 5953 | 200000 | 5953 |
+| Standard_E128bs_v6 | 64 | 330000 | 10000 | 350000 | 6782 | 266667 | 7935 | 266667 | 7935 |
+| Standard_E192ibs_v6 | 64 | 400000 | 14000 | 400000 | 12000 | 400000 | 12000 | 400000 | 12000 |
 
 #### Storage resources
 - [Introduction to Azure managed disks](../../../virtual-machines/managed-disks-overview.md)
